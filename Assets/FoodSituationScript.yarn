@@ -1,0 +1,39 @@
+﻿title: Start
+---
+Pheonix: So, where do you wanna eat?
+
+-> Player: I wanna go eat at KFD, haven't been there in a while.
+    Pheonix: Okay, lets go to KFD I've never been there.
+    <<jump KFD>>
+-> Player: Have you heard of Good Jerk?
+    Pheonix: Yea of course I have, its my favourite place to eat at.
+    Player: Okay, I never been there I wanna try it.
+    <<jump GoodJerk>>
+===
+title: KFD
+---
+Pheonix: What do you think I should get here at KFD?
+-> Player: 3 Piece combo with curly fries!
+    Pheonix: Wow that tasted so good! I am definetly coming back.
+-> Player: You should try their spicy poutine, my personal favourite.
+    Pheonix: Ew how do you like this? This place sucks I am never coming back.
+
+<<jump Done>>
+===
+title: GoodJerk
+---
+Pheonix: You should try their jerk pork plate.
+-> Player: How come?
+    Pheonix: Because there isn't a single person on this planet that would ever hate this dish!
+-> Player: Ok, sure.
+<<jump Done1>>
+    Player: Wow that tasted so good, thanks for telling me what's good so I can get it next time.
+    Pheonix: Yea bro that's what Im here for.
+
+===
+title: Done1
+---
+Player: Wow that tasted so good, thanks for telling whats good so i can get it next time.
+Phoenix: Yea bro that's what Im here for.
+
+===
